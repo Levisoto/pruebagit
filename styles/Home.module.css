@@ -5,36 +5,36 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: #1c1b1f;
 }
 
 .flex {
-  font-size: 20px;
-  text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 20px;
+  text-align: center;
   padding: 4px;
   color: yellow;
   transition: color 0.3s ease;
 }
-.titulo:hover{
-  color:chocolate;
+.titulo:hover {
+  color: chocolate;
   transition: 2s;
-
 }
 
 .login_box {
   width: 320px;
-  background: #000;
-  color: #fff;
-  box-sizing: border-box;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border-radius: 5px; /* Borde de radio de 5px */
-  border: 2px solid red; /* Borde sólido de color rojo */
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  border-radius: 30px; /* Borde de radio de 5px */
+  background: #7d5260;
 }
 
 .login_box h1 {
@@ -43,12 +43,24 @@
   border-radius: 2px solid red;
 }
 
+.login_input_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.login_input_container label {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
 .login_input {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .login_button {

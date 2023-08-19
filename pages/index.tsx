@@ -19,14 +19,16 @@ export default function Home() {
           <h1 className={styles.titulo}>LOGIN DE LEVEL STUDIO</h1>
           <div className={styles.login_box}>
             <form>
-              <label htmlFor="usuario">Usuario</label>
-              <input
-                id="usuario"
-                className={styles.login_input}
-                type="text"
-                placeholder="Usuario"
-                required
-              />
+              <div className={styles.login_input_container}>
+                <label htmlFor="usuario">Usuario</label>
+                <input
+                  id="usuario"
+                  className={styles.login_input}
+                  type="text"
+                  placeholder="Usuario"
+                  required
+                />
+              </div>
               <label htmlFor="contraseña">Contraseña</label>
               <input
                 id="contraseña"
