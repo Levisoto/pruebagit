@@ -29,7 +29,7 @@ export default function Home() {
                   required
                 />
               </div>
-              <label htmlFor="contraseña">Contraseña</label>
+              <label className={styles.login_input_container} htmlFor="contraseña">Contraseña</label>
               <input
                 id="contraseña"
                 className={styles.login_input}
