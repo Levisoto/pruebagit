@@ -17,6 +17,11 @@
   color: yellow;
   transition: color 0.3s ease;
 }
+.titulo:hover{
+  color:chocolate;
+  transition: 2s;
+
+}
 
 .login_box {
   width: 320px;

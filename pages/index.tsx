@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.flex}>
-          <h1 className="titulo">LOGIN DE LEVEL STUDIO</h1>
+          <h1 className={styles.titulo}>LOGIN DE LEVEL STUDIO</h1>
           <div className={styles.login_box}>
             <form>
               <label htmlFor="usuario">Usuario</label>
